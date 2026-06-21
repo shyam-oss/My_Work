@@ -3,18 +3,18 @@
 # Declare variables to be passed into your templates.
 
 # Regular nodes count
-jccCount: 1
+jccCount: 3
 
 # Feedmaster nodes count
-feedmasterCount: 1
+#feedmasterCount: 0
 
 # Docker image of SnapLogic snaplex
 image:
   repository: snaplogic/snaplex
-  tag: latest
+  tag: 4.44.1_jcc_patches-42959 - 4.44.1.1 (Recommended)
 
 # SnapLogic configuration link
-snaplogic_config_link:
+snaplogic_config_link: https://elastic.snaplogic.com/api/1/rest/plex/config/SL-Support/Shyam/shared/AzureKubeShyam?expires=1782022531&user_id=csundar%40snaplogic.com&_sl_authproxy_key=VTqIzNm50oOSKL7edhgSRrqRrSix%2BkZSnEb1aTHjzqY%3D
 
 # SnapLogic Org admin credential
 #snaplogic_secret:
